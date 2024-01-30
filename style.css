@@ -140,11 +140,33 @@
 
 }
 
-.paragraph1 {
+ .paragraph1 {
     font-size: 18px;
     font-weight: bold;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .paragraph1 {
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .paragraph1 {
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    }
+
+
+
+
+
+
 
 .img_sec_3 {
     height: 200vh;
@@ -537,6 +559,24 @@
     font-size: 23px;
 
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+    .sec3_card_subheding {
+        font-weight: bold;
+        font-size: 18px;
+    
+    }
+     }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .sec3_card_subheding {
+        font-weight: bold;
+        font-size: 18px;
+    
+    }      
+    }
 
 .sec3_card_img {
     width: 30%;
