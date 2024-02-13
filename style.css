@@ -95,6 +95,11 @@
     font-weight: bold;
 }
 
+.sec-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .sec2 {
     background-color: #eee8e4;
     height: 80vh;
@@ -105,8 +110,8 @@
 @media only screen and (max-width: 600px) {
     .sec2 {
         background:none;
-        height: 120vh;
-        border-radius: 80px;
+        height: 1020px;
+        border-radius: 60px;
     
     }
     }
@@ -114,7 +119,7 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .sec2 {
         background:none;
-        height: 120vh;
+        height: 1080px;
         border-radius: 80px;
     
     }
@@ -124,9 +129,29 @@
 .sec2_card{
     background-color: #eee8e4;
     border: none;
-    height: 50vh;
+    height: 380px;
     border-radius:60px;
        
+}
+
+@media only screen and (max-width: 600px) {
+    .sec2_card{
+        background-color: #eee8e4;
+        border: none;
+        height: 420px;
+        border-radius:50px;
+           
+    }
+    }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .sec2_card{
+        background-color: #eee8e4;
+        border: none;
+        height: 460px;
+        border-radius:50px;
+           
+    }
 }
 
 
@@ -137,12 +162,34 @@
     font-size: 30px;
     text-decoration: underline;
 
-
 }
 
- .paragraph1 {
+@media only screen and (max-width: 600px) {
+    .heding1 {
+        color: #63110f;
+        font-weight: bold;
+        font-size: 30px;
+        text-decoration: underline;
+    
+    }
+    }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .heding1 {
+        color: #63110f;
+        font-weight: bold;
+        font-size: 45px;
+        text-decoration: underline;
+    
+    }
+}
+
+
+
+.paragraph1 {
     font-size: 18px;
     font-weight: bold;
+    text-align: justify;
 
 }
 
@@ -156,13 +203,11 @@
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .paragraph1 {
-        font-size: 24px;
+        font-size: 28px;
         font-weight: bold;
     
     }
-    }
-
-
+}
 
 
 
@@ -235,7 +280,7 @@
 @media only screen and (max-width: 600px) {
     .box{
     
-        height: auto;
+        height: 820px;
         width: 500px;
         
     }
@@ -252,7 +297,7 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .box{
     
-        height: auto;
+        height: 750px;
         width:100%
         
     }
@@ -392,8 +437,8 @@
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .sec5_img{
-        width: 80%;
-        height: 60%;
+        width: 60%;
+        height: 40%;
     }
     }
 
@@ -893,7 +938,7 @@
    }
 
    .ser_sec1_img{
-    max-width: 100%;
+    width: 100%;
 
    }
 
@@ -1043,4 +1088,11 @@
 
    .card_icon{
      color:#000000
+   }
+
+   /* ABOUT_US_PAGE_CSS */
+
+
+   .about_sec1_img{
+    height: 450px;
    }
