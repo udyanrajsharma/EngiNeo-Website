@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .heding.heding{ 
+        font-size: 40px; 
+    }
+
+    .subheding.subheding{ 
+        font-size: 20px; 
+    }
+
+    .paragraph.paragraph {
+        font-size: 23px;
+        
+    }
+
+    .sec1_img.sec1_img{
+        height:500px;
+    }  
+
+    .sec2.sec2 {
+        background:none;
+        height: 1180px;
+        border-radius: 80px;
+    
+    }
+
+    .sec2_card.sec2_card{
+        background-color: #eee8e4;
+        border: none;
+        height: 460px;
+        border-radius:50px;
+        color:#63110f;
+           
+    }
+
+    .heding1.heding1 {
+        color: #63110f;
+        font-weight: bold;
+        font-size: 45px;
+        text-decoration: underline;
+    
+    }
+
+    .paragraph1.paragraph1 {
+        font-size: 28px;
+        font-weight: bold;
+    
+    }
+
+    .img_sec_3.img_sec_3 {
+        height: 2400px;
+    }
+
+    .sec_4.sec_4 {
+        height: 50vh;
+    }
+
+    .sec_4_heding.sec_4_heding {
+        font-size: 50px;
+    }
+
+    .box.box{
+    
+        height: 750px;
+        width:100%
+        
+    }
+
+    .sec5_img.sec5_img{
+        width: 60%;
+        height: 40%;
+    }
+
+    .sec3_card_p.sec3_card_p{
+        font-size: 25px;
+    }
+
+    .sec_6_heding.sec_6_heding {
+        font-size: 45px;
+    }
+
+    .footer.footer {
+        
+        height: 1250px;
+        font-size: 25px;
+    
+    }
+
+    .sec5_bg_img.sec5_bg_img {
+        width: 100%;
+        height: 850px;
+    }
+
+    .sec_5_heding.sec_5_heding {   
+        font-size: 55px;
+    }  
+
+    .sec3_card_img.sec3_card_img {
+        width: 110px;
+    } 
+
+    .sec3_card_con.sec3_card_con{
+
+        height: 400px;
+    }
+
+    .sec5_card-body.sec5_card-body {
+
+        height: 650px;
+        
+    }
+
+    .sec5_card-body-MPP.sec5_card-body-MPP {
+
+        height: 610px;
+        
+    }
+
+    .sec5_heding.sec5_heding{
+        font-size: 35px;
+    }  
+
+    .ser_sec1_text.ser_sec1_text{
+    
+        color: #63110f;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .ser_sec2_heding.ser_sec2_heding{
+        color: #63110f;
+        font-weight: bold;
+        font-size: 45px;
+    }
+
+    .ser_sec2_box.ser_sec2_box {
+        height: auto
+    }
+    
+    .ser_sec3_heding.ser_sec3_heding{
+        height: auto;
+    }
+
+    .ser_sec3_heding.ser_sec3_heding{
+        font-weight:bold;
+        font-size: 28px;
+    }
+    .newsection.newsection{
+
+        height: 154vh;
+    }
+       
+      
+    }

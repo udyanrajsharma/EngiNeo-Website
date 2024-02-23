@@ -4,29 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Engineo_about</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="stylecom.css"> -->
+    <link rel="stylesheet" href="Styleabout.css">
+
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="stylemax600.css"> -->
+    <!-- <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1024px)" href="style601-1024.css"> -->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- phone no field dropdown in from -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
 </head>
 
 <body>
-    <section class="card ">
-        <div class="about_sec1_card card text-bg-black justify-content-center col-lg-12 col-md-12 col-sm-11 ">
-            <img src="./images/Background1_aboutpage.png" class="about_sec1_img  card-img image-fluid " alt="img">
-            <div class="col-12 card-img-overlay row justify-content-center">
-                <div class="row card-img-overlay text-center justify-content-center mt-4 pt-5">
-                    <h5 class="ser_sec1_text card-text mt-lg-5 text-white mt-5 pt-5 "> About Us </h5>
+
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("header.html");
+        });
+
+        $(function () {
+            $("#foot-placeholder").load("footer.html");
+        });
+    </script>
+    <section class="about_sec1">
+        <div class=" about_sec1_card card text-bg-black justify-content-center col-12 m-0 p-0 ">
+            <img src="./images/Background1_aboutpage.png"
+                class="about_sec1_img object-fit-cover card-img image-fluid p-0 m-0  w-100  " alt="img">
+            <div class="col-12 card-img-overlay row justify-content-center m-0 p-0 mt-5 ">
+                <div class="row card-img-overlay text-center justify-content-center  text-center m-0 p-0 mt-5">
+                    <h1 class="about_sec1_text card-text mt-lg-5 text-white mt-5 pt-5 fw-bold  m-0 p-0"> About Us </h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="ser_sec2 mt-5 ">
+    <section class="about_sec2 mt-5 mb-4 ">
         <div class="row text-center m-0 p-0 ">
-            <h3>Over 20,000UsersOnboarded Till Date...</h3>
+            <h3>Over <span class="text_color_brown">20,000 Users Onboarded</span> Till Date...</h3>
 
-            <h1 class="mt-4">50+ Experienced Professionals Who Never
+            <h1 class="mt-4 fw-bold"> <span class="text_color_brown">50+ Experienced Professionals </span> Who Never
                 Let You Down!</h1>
             <div class=" row mt-4 text-center justify-content-center fs-5 m-0  ">
                 <p class="col-lg-10">We @EngiNeo carry expertise in driving ERP implementations and managed services for
@@ -34,25 +61,314 @@
                     industries like Banking and Finance, Telecom, BPO and Professional Services for Modules like
                     Project-Task Management, Contract Management, Payables, Receivables, Asset Management, Taxation and
                     People Management.</p>
-                <p class="col-lg-10">Our experience with Big4 Consulting (PwC, EY, KPMG) has also enabled us to
+                <p class="col-lg-10">Our experience with <span class="fw-bold">Big4 Consulting (PwC, EY, KPMG)</span>
+                    has also enabled us to
                     understand problems and advise customers on how to operationalize and automate their cloud
                     investments through multiple models i.e. Applications, Infrastructure and Services.</p>
 
-                <div class="">
+                <div class="row col-lg-9 justify-content-center text-center mt-5  ">
+
+                    <div class="card-body justify-content-center text-center col-lg-2 col-md-8 col-sm-10 ">
+
+                        <img src="images/Rohit_new.JPG" class=" about_sec2_top3_img " alt="...">
+                        <h5 class="card-title text-bold fs-4 text-center mt-4 text_color_brown fw-bold ">Rohit Arora
+                        </h5>
+                        <p class="fw-bold  ">Founder & Managing Director</p>
+
+                    </div>
+                    <div class=" card-body justify-content-center text-center col-lg-2 col-md-8 col-sm-10">
+
+                        <img src="images/udyan.JPG" class=" about_sec2_top3_img" alt="...">
+                        <h5 class="card-title text-bold fs-4 text-center mt-4 text_color_brown fw-bold ">Udyan Sharma
+                        </h5>
+                        <p class="fw-bold ">Director Infrastructure & Technology</p>
+
+                    </div>
+                    <div class=" card-body justify-content-center text-center col-lg-2 col-md-8 col-sm-10">
+
+                        <img src="images/Himang.JPG" class=" about_sec2_top3_img" alt="...">
+                        <h5 class="card-title text-bold fs-4 text-center mt-4 text_color_brown fw-bold">Hemang
+                            Chaturvedi</h5>
+                        <p class="fw-bold">Director Products & Solutions</p>
+
+                    </div>
 
 
                 </div>
+                <!-- <h1 class="mt-4 OHC fs-1 fw-bold text_color_brown ">Our Happy Customers</h1>
 
-                <h1 class="mt-4">Our Happy Customers</h1>
+                <div class="card mt-4" style="width: 60rem;">
+                    <div class=" card-body justify-content-left text-left">
 
-                <div>
-                    
+                        <img src="images/kznzm_80_image.png" class="card-img-top about_sec2_card_img " alt="...">
+                        <h5 class="card-title text-bold fs-4 fw-bold text-left ">Customer Name</h5>
+                        <img src="images/star.webp" class="" alt="...">
+
+                    </div>
+                    <div class="card-body text-left">
+
+                        <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                            dolore,
+                            alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam et
+                            deserunt, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                            dolore, alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam
+                            et deserunt, recusandae.</p>
+
+                    </div>
                 </div>
+                <div class="card mt-4 col-10" style="width: 60rem;">
+                    <div class="card-body text-left">
+                        <img src="images/kznzm_80_image.png" class="card-img-top about_sec2_card_img " alt="...">
+                        <h5 class="card-title text-bold fs-4 fw-bold">Customer Name</h5>
+                        <img src="images/star.webp" class="" alt="...">
+                    </div>
+                    <div class="card-body text-left">
+
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore,
+                            alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam et
+                            deserunt, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                            dolore, alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam
+                            et deserunt, recusandae.</p>
+
+                    </div>
+                </div>
+                <div class="card mt-4 col-10" style="width: 60rem;">
+                    <div class="card-body text-left">
+                        <img src="images/kznzm_80_image.png" class="card-img-top about_sec2_card_img " alt="...">
+                        <h5 class="card-title text-bold fs-4 fw-bold">Customer Name</h5>
+                        <img src="images/star.webp" class="" alt="...">
+                    </div>
+                    <div class="card-body text-left">
+
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore,
+                            alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam et
+                            deserunt, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                            dolore, alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam
+                            et deserunt, recusandae.</p>
+
+                    </div>
+                </div>
+                <div class="card mt-4 col-10 " style="width: 60rem;">
+                    <div class="card-body text-left">
+                        <img src="images/kznzm_80_image.png" class="card-img-top about_sec2_card_img  " alt="...">
+                        <h5 class="card-title text-bold fs-4 fw-bold">Customer Name</h5>
+                        <img src="images/star.webp" class="" alt="...">
+                    </div>
+                    <div class="card-body text-left ">
+
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolore,
+                            alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam et
+                            deserunt, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                            dolore, alias, numquam enim ab voluptate id quam harum ducimus cupiditate similique quisquam
+                            et deserunt, recusandae.</p>
+
+                    </div>
+                </div> -->
             </div>
         </div>
 
 
     </section>
+
+    <section class="about_sec3">
+        <div class=" card text-bg-black m-0 p-0  ">
+            <img src="./images/about_sec3_background.jpeg"
+                class="card-img about_sec3_back_img  object-fit-cover p-0 m-0" alt="img">
+            <div class="card-img-overlay justify-content-center card-body row col-12 ">
+                <div class="row col-lg-6 col-md-6 justify-content-center mt-5 ms-lg-5 ">
+                    <h1 class="card-title text-left fw-bold ">Our Vision</h1>
+                    <p class=" card-text text-left  fw-bold  fs-1 text_color_brown m-0 p-0">Digital Transformation
+                        &
+                        Accelerate Business Growth</p>
+                    <div class=" justify-content-left ">
+                        <p class=" card-text  text-left row-gap-1  text-bg-black col-lg-10 fs-5  ;">
+                            Since
+                            we started EngiNeo in 2023, our goal has been simple: turn great ideas into real,
+                            cutting-edge
+                            tech solutions. Our name combines "Engineer" with "Neo," meaning we're all about creating
+                            new,
+                            smart engineering solutions.</p>
+                        <p class=" card-text  text-left row-gap-1 mt-lg-4 text-bg-black col-lg-10 fs-5 ;">In
+                            the
+                            time span of just 1 year, we have worked with big brands like JCB, CEAT, InfraMarket,
+                            Spectra,
+                            Calvin Klein and many more but what really matters is the trust from these brands. They rely
+                            on
+                            us to lead the way in digital transformation, and that's exactly what we do.</p>
+                    </div>
+                </div>
+                <div class=" row justify-content-center mt-5 col-lg-4 d-none d-md-block col-md-4 mt-md-5 ">
+
+                    <img src="./images/about_sec3.png" class="sec1_img card-img image-fluid  m-0 p-0" alt="img">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec_4 m-0 p-0">
+
+        <h5 class="about_sec4_heding card-title  text-center my-4 text_color_brown ">Trusted by Top Brands </h5>
+
+        <div class="img-slider-div">
+            <div>
+                <img src="https://img.flexifunnels.com/images/2809/qzntm_360_pngtransparentjcbhdlogothumbnail.png"
+                    alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/k0mtc_2000_CEATTyresLtd.png" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/m1ndc_2025_InfraMarketPrimarylogo.png" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/g4nti_550_download.png" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/i1nja_1200_hinesseomatic.png" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/i5mdk_1456_HBLPOWER.NSBIG3757730c.png" alt="img" />
+                <img src="/images/crystal-crop--removebg-preview.png" alt="img" />
+                <img src="/images/MarutiSuzuki-logo.png" alt="img" />
+            </div>
+            <div>
+                <img src="https://img.flexifunnels.com/images/2809/cymdi_400_PVHlogo1.png" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/m3mte_1200_Duroflexlogoredonwhite300x300.webp"
+                    alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/yzodi_1176_AlankaramLogoupdated1.svg" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/a1mjy_575_forevernewlogo.webp" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/m2ntc_422_download1.png" alt="img" />
+                <img src="https://img.flexifunnels.com/images/2809/i1mze_205_COHANCELOGO.webp" alt="img" />
+                <img src="/images/Dynavac.png" alt="img" />
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about_sec5 mt-5 p-0 m-0">
+        <div class="card m-0 p-0 ">
+            <img src="./images/2nd_Image.png" class="img_about_sec5 card-img image-fluid m-0 p-0" alt="img">
+            <div class="row card-img-overlay justify-content-center  m-0 p-0">
+                <h5 class="heding_about_sec5 card-title text-center mt-lg-5 my-2 col-10 text_color_brown  ">Industries
+                    We Have Served</h5>
+
+                <div class=" row col-lg-12 justify-content-center p-0 m-0">
+                    <div class=" row  mt-lg-5 justify-content-center m-0 p-0 ">
+                        <div class="row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center  ">
+                            <div class="about_sec5_card1  col-8 card about_sec5_hover-box1">
+                                <div class="card-body text-center">
+                                    <img class="sec5_card_img mt-3 no-hover " src="./images/pharmacy.png" alt="img">
+
+                                    <h5 class="sec3_card_subheding  no-hover">PHARMACY</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center ">
+                            <div class=" about_sec5_card2 col-8 card about_sec5_hover-box2">
+                                <div class="card-body text-center ">
+                                    <img class="sec5_card_img mt-3  no-hover" src="./images/professional_services.png" alt="img">
+
+                                    <h5 class="sec3_card_subheding mt-3  no-hover">PROFESSIONAL SERVICES</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center">
+                            <div class="about_sec5_card3 col-8 card about_sec5_hover-box3">
+                                <div class="card-body text-center">
+                                    <img class="sec5_card_img mt-3 no-hover" src="./images/IT_ITAS.png" alt="">
+
+                                    <h5 class="sec3_card_subheding mt-3  no-hover">IT/ ITES</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                        <!-- </div> -->
+                        <!-- <div class=" row justify-content-center mt-lg-4 p-0 m-0"> -->
+                        <!-- <div class=" row col-lg-10 justify-content-center mt-lg-5"> -->
+                        <div class="row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center">
+                            <div class="about_sec5_card4  col-8 card about_sec5_hover-box4">
+                                <div class="card-body text-center  ">
+                                    <img class="sec5_card_img mt-3 no-hover" src="./images/menufacturing.png"
+                                        alt="img">
+                                    <h5 class="sec3_card_subheding mt-3  no-hover">MANUFACTURING</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center ">
+                            <div class="about_sec5_card5  col-8 card about_sec5_hover-box5">
+                                <div class="card-body text-center">
+                                    <img class="sec5_card_img mt-3 no-hover" src="./images/retail.png" alt="img">
+                                    <h5 class="sec3_card_subheding mt-3  no-hover">RETAIL</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center ">
+                            <div class="about_sec5_card6  col-8 card about_sec5_hover-box6">
+                                <div class="card-body text-center">
+                                    <img class="sec5_card_img mt-3 no-hover" src="./images/telecome.png" alt="img">
+                                    <h5 class="sec3_card_subheding mt-3  no-hover">TELECOM</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" row col-lg-4 col-md-8 col-sm-12 mb-4 justify-content-center  ">
+                            <div class="about_sec5_card7  col-8 card about_sec5_hover-box7">
+                                <div class="card-body text-center">
+                                    <img class="sec5_card_img  no-hover" src="./images/construction.png" alt="img">
+                                    <h5 class="sec3_card_subheding mt-3  no-hover">CONSTRUCTION</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_sec6">
+        <div class=" row text-bg-black m-0 col-12 ">
+
+            <div class="row col-lg-8 col-md-8  mt-5 justify-content-center">
+                <div class=" col-lg-8  m-0 p-0 mt-5 ms-5">
+                    <h5 class=" text-left fs-1 text_color_brown fw-bold">Let's Get Started</h5>
+
+
+                    <p class=" row text-left row-gap-1 col-11 text-bg-black  fs-5  ;">
+                        Drop a message, we will reach out to explore your digital requirements together.
+                        Let's shape your Digital Transformation journey.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="  row justify-content-center mt-5 col-lg-4 col-md-4 col-sm-5 text-center   ">
+
+                <a
+                    href="
+                https://docs.google.com/forms/d/e/1FAIpQLSeuy0fV1YNHywICDnOTb-o4kSwivqyRu9SKK-I5Flznv4LSzQ/viewform?pli=1&pli=1"><button
+                        type="submit" class="btn btn-danger about_buttn btn-lg col-8 mt-lg-5">Contact Us</button></a>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <div id="foot-placeholder">
+
+    </div>
+
+    <!--phone no field dropdown in form -->
+    <script>
+        const phoneInputField = document.querySelector("#phone");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+                "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+    </script>
+
+
+
+
+
+
 
 
 </body>
