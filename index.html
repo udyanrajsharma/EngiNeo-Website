@@ -8,12 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="stylecom.css">
+
     <!-- <link rel="stylesheet" href="stylemax600.css"> -->
     <!-- <link rel="stylesheet" href="style601-1024.css"> -->
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="stylemax600.css" />
     <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1024px)" href="style601-1024.css" />
     <!-- ------------------------------------------------------------------------------------------------------ -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 
 
 </head>
@@ -24,14 +26,7 @@
 
     </div>
 
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("header.html");
-        });
-        $(function () {
-            $("#foot-placeholder").load("footer.html");
-        });
-    </script>
+    
 
 
 
@@ -341,66 +336,314 @@
     <!-- -------------------------------------------------------------------------------------- -->
     <section class="newsection">
         <div class="row justify-content-center mt-4 p-0 m-0">
-            <h1 class="text-center fw-bold heding">Our Services</h1>
-            <div class="row col-12 justify-content-center ">
-                <div class=" newbox col-lg-4 col-md-8 col-sm-10 mt-5">
-                    <div class="card bg-white text-dark newsec_card_size ">
-                        <img src="./images/TRAVEL.png" class="card-img image-fluid newimage newsec_card_size" alt="...">
+            <h1 class="text-center fw-bold heding ourservices ">Our Services</h1>
+            <div class="row col-12 justify-content-center d-flex position-relative  ">
+                <!-- Frist box -->
+                <div class=" newbox  travel_expense col-lg-4 col-md-8 col-sm-10 mt-5 ms-5 ">
+                    <div class="card bg-white text-dark newsec_card_size  ">
+                        <img src="./images/TRAVEL.png" class="card-img  newimage " alt="..." style="max-height: 100%;">
                         <div class="card-img-overlay ">
                             <h5 class="card-title text-white ps-4 pt-4 fs-4">Travel & Expense</h5>
                         </div>
-                        <div class="card-img-overlay newtext ">
-                            <h5 class="card-title ps-4 pt-4 fs-4">Travel & Expense</h5>
-                            <p class="card-text p-4">We have India's top Travel and Expense solution for employees,
-                                managers, and finance teams for fast, transparent, compliant, and error-free.
-                            </p>
+                        <div class=" row card-img-overlay newtext col-12 ">
+                            <div class="col-9">
+                                <h5 class="card-title ps-4 pt-4 fs-4">Travel & Expense</h5>
+                                <p class="card-text p-4">We have India's top Travel and Expense solution for employees,
+                                    managers, and finance teams for fast, transparent, compliant, and error-free.
+                                </p>
+                                <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                            </div>
+
+
+                            <div class="col-3">
+
+                                <div class=" box  taxtech mt-4 ">
+                                    <div class="card bg-white text-dark">
+                                        <img src="./images/taxtech.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">Tax Tech</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Tax Tech</h5>
+                                            <p class="card-text">We have End to End Tax Compliance Management Tools for
+                                                every size of
+                                                businesses.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class=" box erp mt-4 ">
+                                    <div class="card bg-white text-dark ">
+                                        <img src="./images/ERP-NEW.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">ERP</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">ERP </h5>
+                                            <p class="card-text">We provide the functional and technical expertise to
+                                                adopt an ERP,
+                                                mould it to the business needs and integrate it with the customers’
+                                                ecosystem.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" box integrations mt-4  ">
+                                    <div class="card bg-white text-dark  ">
+                                        <img src="./images/INTEGRATIONS-NEW.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white">Integrations</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Integrations</h5>
+                                            <p class="card-text">We have expertise in Data modelling, transformation and
+                                                integrations
+                                                between diversified cloud and non-cloud systems.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+ 
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Second box -->
+                <div class="newbox  taxtech col-lg-4 col-md-8 col-sm-10 mt-5 ms-5">
+                    <div class="card bg-white text-dark newsec_card_size ">
+                        <img src="./images/taxtech.png" class="card-img newimage " alt="..." style="max-height: 100%;">
+                        <div class="card-img-overlay ">
+                            <h5 class="card-title text-white ps-4 pt-4 fs-4">Tax Tech</h5>
+                        </div>
+                        <div class="row card-img-overlay newtext col-12 ">
+                            <div class="col-9">
+                            <h5 class="card-title ps-4 pt-4 fs-4">Tax Tech</h5>
+                            <p class="card-text p-4">We have End to End Tax Compliance Management Tools for every size
+                                of
+                                businesses.</p>
                             <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                            </div>
+                            <div class="col-3">
+
+                                <div class=" box  travel_expense mt-4 ">
+                                    <div class="card bg-white text-dark  ">
+                                        <img src="./images/TRAVEL.png" class="card-img  image " alt="..." style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">Travel & Expense</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Travel & Expense</h5>
+                                            <p class="card-text ">We have India's top Travel and Expense solution for employees,
+                                                managers, and finance teams for fast, transparent, compliant, and error-free.
+                                            </p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class=" box erp mt-4 ">
+                                    <div class="card bg-white text-dark ">
+                                        <img src="./images/ERP-NEW.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">ERP</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">ERP </h5>
+                                            <p class="card-text">We provide the functional and technical expertise to
+                                                adopt an ERP,
+                                                mould it to the business needs and integrate it with the customers’
+                                                ecosystem.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" box integrations mt-4  ">
+                                    <div class="card bg-white text-dark  ">
+                                        <img src="./images/INTEGRATIONS-NEW.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white">Integrations</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Integrations</h5>
+                                            <p class="card-text">We have expertise in Data modelling, transformation and
+                                                integrations
+                                                between diversified cloud and non-cloud systems.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class=" newbox col-lg-4 col-md-8 col-sm-10 mt-5">
+
+                <!-- Third box -->
+                <div class=" newbox erp  col-lg-4 col-md-8 col-sm-10 mt-2 ms-5">
                     <div class="card bg-white text-dark newsec_card_size ">
-                        <img src="./images/tax.png" class="card-img newimage newsec_card_size" alt="...">
-                        <div class="card-img-overlay ">
-                            <h5 class="card-title text-white ps-4 pt-4 fs-4">Tax Tech</h5>
-                        </div>
-                        <div class="card-img-overlay newtext ">
-                            <h5 class="card-title ps-4 pt-4 fs-4">Tax Tech</h5>
-                            <p class="card-text p-4">We have End to End Tax Compliance Management Tools for every size of
-                                businesses.</p>
-                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row col-12 justify-content-center ">
-                <div class=" newbox col-lg-4 col-md-8 col-sm-10 mt-5">
-                    <div class="card bg-white text-dark newsec_card_size">
-                        <img src="./images/ERP-NEW.png" class="card-img newimage newsec_card_size" alt="...">
+                        <img src="./images/ERP-NEW.png" class="card-img newimage " alt="..." style="max-height: 100%;">
                         <div class="card-img-overlay ">
                             <h5 class="card-title text-white ps-4 pt-4 fs-4">ERP</h5>
                         </div>
-                        <div class="card-img-overlay newtext ">
+                        <div class="row card-img-overlay newtext col-12 ">
+                            <div class=" col-9">
                             <h5 class="card-title ps-4 pt-4 fs-4">ERP </h5>
                             <p class="card-text p-4">We provide the functional and technical expertise to adopt an ERP,
                                 mould it to the business needs and integrate it with the customers’ ecosystem.</p>
                             <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                            </div>
+                            <div class="col-3">
+                                <div class=" box  travel_expense mt-4 ">
+                                    <div class="card bg-white text-dark  ">
+                                        <img src="./images/TRAVEL.png" class="card-img  image " alt="..." style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">Travel & Expense</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Travel & Expense</h5>
+                                            <p class="card-text ">We have India's top Travel and Expense solution for employees,
+                                                managers, and finance teams for fast, transparent, compliant, and error-free.
+                                            </p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class=" box  taxtech mt-4 ">
+                                    <div class="card bg-white text-dark">
+                                        <img src="./images/taxtech.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">Tax Tech</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Tax Tech</h5>
+                                            <p class="card-text">We have End to End Tax Compliance Management Tools for
+                                                every size of
+                                                businesses.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" box integrations mt-4  ">
+                                    <div class="card bg-white text-dark  ">
+                                        <img src="./images/INTEGRATIONS-NEW.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white">Integrations</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Integrations</h5>
+                                            <p class="card-text">We have expertise in Data modelling, transformation and
+                                                integrations
+                                                between diversified cloud and non-cloud systems.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class=" newbox col-lg-4 col-md-8 col-sm-10 mt-5">
+
+
+                <!-- Fourth box -->
+                <div class=" newbox integrations  col-lg-4 col-md-8 col-sm-10 mt-2 ms-5 ">
                     <div class="card bg-white text-dark newsec_card_size ">
-                        <img src="./images/INTEGRATIONS-NEW.png" class="card-img newimage newsec_card_size" alt="...">
+                        <img src="./images/INTEGRATIONS-NEW.png" class="card-img newimage " alt="..."
+                            style="max-height: 100%;">
                         <div class="card-img-overlay ">
                             <h5 class="card-title text-white ps-4 pt-4 fs-4">Integrations</h5>
                         </div>
-                        <div class="card-img-overlay newtext ">
+                        <div class="row card-img-overlay newtext col-12">
+                            <div class="col-9">
                             <h5 class="card-title ps-4 pt-4 fs-4 ">Integrations</h5>
-                            <p class="card-text p-4">We have expertise in Data modelling, transformation and integrations
+                            <p class="card-text p-4">We have expertise in Data modelling, transformation and
+                                integrations
                                 between diversified cloud and non-cloud systems.</p>
                             <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                            </div>
+                            <div class="col-3">
+                                <div class=" box  travel_expense mt-4 ">
+                                    <div class="card bg-white text-dark  ">
+                                        <img src="./images/TRAVEL.png" class="card-img  image " alt="..." style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">Travel & Expense</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Travel & Expense</h5>
+                                            <p class="card-text ">We have India's top Travel and Expense solution for employees,
+                                                managers, and finance teams for fast, transparent, compliant, and error-free.
+                                            </p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class=" box  taxtech mt-4 ">
+                                    <div class="card bg-white text-dark">
+                                        <img src="./images/taxtech.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">Tax Tech</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">Tax Tech</h5>
+                                            <p class="card-text">We have End to End Tax Compliance Management Tools for
+                                                every size of
+                                                businesses.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class=" box erp mt-4 ">
+                                    <div class="card bg-white text-dark ">
+                                        <img src="./images/ERP-NEW.png" class="card-img image " alt="..."
+                                            style="max-height: 100%;">
+                                        <div class="card-img-overlay ">
+                                            <h5 class="card-title text-white ">ERP</h5>
+                                        </div>
+                                        <div class="card-img-overlay text ">
+                                            <h5 class="card-title ">ERP </h5>
+                                            <p class="card-text">We provide the functional and technical expertise to
+                                                adopt an ERP,
+                                                mould it to the business needs and integrate it with the customers’
+                                                ecosystem.</p>
+                                            <!-- <p class="card-text">Last updated 3 mins ago</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div>
@@ -465,6 +708,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="home.js"></script>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("header.html");
+        });
+        $(function () {
+            $("#foot-placeholder").load("footer.html");
+        });
+    </script>
 
 </body>
 

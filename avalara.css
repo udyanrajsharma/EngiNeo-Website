@@ -1,0 +1,27 @@
+.sec1_card{
+
+    box-shadow: 5px 5px 5px 5px #F4F4F4;
+    border:none
+}
+
+.subcard_body2{
+
+    background-color: #F4F5F6;
+
+}
+
+
+
+.subcard_img.subcard_img{
+
+     border-radius: 20px;
+     height: 250px;
+}
+
+h5 h5 {
+    font-size: 26px;
+}
+
+p{
+    font-size: 18px;
+}
