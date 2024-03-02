@@ -36,7 +36,7 @@
 
 
 .sec1_img.sec1_img {
-    height: 650px;
+    height: 600px;
 }
 
 
@@ -103,7 +103,7 @@
 
 
 .sec_4.sec_4 {
-    height: 100vh;
+    height: 60vh;
 
 }
 
@@ -590,7 +590,7 @@ div.sec5_box.sec5_box {
 
 /* Trusted by top brand animation  */
 
-.img-slider-div {
+/* .img-slider-div {
     overflow: hidden;
 }
 
@@ -641,7 +641,80 @@ div.sec5_box.sec5_box {
     100% {
         transform: translateX(-100%);
     }
+} */
+
+
+
+
+
+.img-slider-div {
+    overflow: hidden;
 }
+
+.img-slider-div .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.img-slider-div .images:nth-child(1) {
+    animation: scrollFirst 30s linear infinite;
+
+}
+
+.img-slider-div .images:nth-child(2) {
+    animation: scrollSecond 30s linear infinite;
+}
+
+.img-slider-div div img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+@keyframes scrollFirst {
+    0% {
+        transform: translateX(100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes scrollSecond {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Services page  */
 
@@ -701,7 +774,7 @@ div.sec5_box.sec5_box {
 
 .ser_sec3_heding.ser_sec3_heding {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 40px;
 }
 
 
@@ -718,6 +791,8 @@ div.sec5_box.sec5_box {
 .card_icon.card_icon {
     color: #000000
 }
+
+
 
 /* ABOUT_US_PAGE_CSS */
 
@@ -740,27 +815,34 @@ div.sec5_box.sec5_box {
 
 .newsec_card_size
  {
-   height: 250px;
+   height: 350px;
 
 }
 
 .newtext {
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
+   
+    
 }
 
 .newbox:hover .newtext {
     opacity: 1;
-    /* Display text on hover */
-
+    display: inline-flex;
+    
 }
+
+/* .newbox:hover {
+    transition-delay: .5s;           /* Delay transition for other boxes */
+  /* } */ 
 
 .newbox:hover .newimage {
     opacity: 0;
     /* Hide image on hover */
 }
-.newbox:hover .newsec_card_size {
+/* .newbox:hover .newsec_card_size {
     height: 90vh;
-}
+} */
 
 
 
@@ -771,6 +853,7 @@ div.sec5_box.sec5_box {
 .text {
     opacity: 0;
     font-size: 10px;
+    
 }
 
 
@@ -779,21 +862,76 @@ div.sec5_box.sec5_box {
     
     /* Display text on hover */
 
-}
+ }  
 
-.box:hover .image {
+ .box:hover .image {
     opacity: 0;
     /* Hide image on hover */
-}
+} 
 
+ .inner_card{
+
+    /* background-color: #EADADA; */
+     box-shadow: 5px 5px 5px 5px #F4F4F4;
+     border:none
+} 
+
+
+ .newbox {
+    transition: width 0.2s ease-in-out;
+    border: none;
+}
+ 
+
+
+
+/* Fade in  Animation in all section  */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px); /* Initial position below */
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Animation transition */
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0); /* Move to original position */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .newbox:hover { 
+    width: 50%; /* Increase width on hover */
+  /* } */
+  
+/* .newbox:hover ~.newbox {
+    width: 15%; /* Reduce width of other cards on hover */
+  /* } */ 
+   
 /* .box:hover:not(.text) {
 
     transform: scale(1.5);
    
 } */
-
-
-
 
 /* .box:hover .sec_card_size {
     height: 90vh;
@@ -838,6 +976,3 @@ div.sec5_box.sec5_box {
     transform: scale(2.4);
 } */
 /*
-.ourservices{
-    z-index: 1;
-} 
