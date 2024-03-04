@@ -900,6 +900,131 @@ div.sec5_box.sec5_box {
   
 
 
+/* newsection2  */
+
+.newsection2{
+
+    height:100vh;
+}
+
+.nsec2text1{
+    display: none;
+}
+.part1:hover .nsec2text1 {
+    display:inline-flex;
+}
+
+.nsec2heding1{
+
+    font-weight: normal;
+}
+
+.part1:hover .nsec2heding1 {
+    font-weight: bold;
+}
+
+.part1{
+    border-left: 2px solid rgb(197, 197, 180);
+} 
+
+.part1:hover.part1{
+
+    border-left: 2px solid #63110F
+}
+
+.part2{
+    border-left: 2px solid rgb(197, 197, 180);
+} 
+
+.part2:hover.part2{
+
+    border-left: 2px solid #63110F
+}
+
+.part3{
+    border-left: 2px solid rgb(197, 197, 180);
+} 
+
+.part3:hover.part3{
+
+    border-left: 2px solid #63110F
+}
+
+.part4{
+    border-left: 2px solid rgb(197, 197, 180);
+} 
+
+.part4:hover.part4{
+
+    border-left: 2px solid #63110F
+}
+
+
+
+
+
+.nsec2text2{
+    display: none;
+}
+.part2:hover .nsec2text2 {
+    display:inline-flex
+} 
+
+.nsec2heding2{
+    font-weight: normal;
+}
+.part2:hover .nsec2heding2 {
+    font-weight: bold;
+   
+} 
+.nsec2text3{
+    display: none;
+}
+.part3:hover .nsec2text3 {
+    display:inline-flex
+} 
+
+.nsec2heding3{
+    font-weight: normal;
+}
+.part3:hover .nsec2heding3 {
+    font-weight: bold;
+   
+} 
+.nsec2text4{
+    display: none;
+}
+.part4:hover .nsec2text4 {
+    display:inline-flex
+}
+.nsec2heding4{
+    font-weight: normal;
+}
+.part4:hover .nsec2heding4 {
+    font-weight: bold;
+   
+}  
+
+.nsec2textr{
+    margin-top: 100px;
+}
+.nsec2textr1{
+    display: none;
+}
+.nsec2textr2{
+    display: none;
+}
+.nsec2textr3{
+    display: none;
+}
+.nsec2textr4{
+    display: none;
+}
+
+
+
+
+
 
 
 
