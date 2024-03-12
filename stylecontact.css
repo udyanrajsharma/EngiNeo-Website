@@ -1,0 +1,165 @@
+.addsec1_innercard.addsec1_innercard {
+  background-color: #63110F;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80%;
+
+}
+
+.consec-1 {
+  height: 110vh;
+}
+
+.sec2_innercard {
+  height: 350px;
+}
+
+.consec2 {
+  height: 100vh;
+
+}
+
+.sec2_inner {
+
+
+  overflow: visible;
+  height: 70vh;
+
+}
+
+.consec2_bg_img {
+  max-height: 800px;
+  height: 500px;
+  max-width: 100vw;
+}
+
+.heding.heding {
+  /* font-family: cormorant; */
+  color: #63110f;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.btn-danger.btn-danger{
+  background-color: #63110F;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+  .consec-1 {
+    height: 75vh;
+  }
+
+
+  .consec2 {
+    height: 55vh;
+
+  }
+
+  .sec2_inner {
+
+
+    overflow: visible;
+    height: 35vh;
+    width: 250px
+  }
+
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+
+
+  .consec-1 {
+    height: 50vh;
+  }
+
+
+  .consec2 {
+    height: 50vh;
+
+  }
+
+  .sec2_inner {
+
+
+    overflow: visible;
+    height: 35vh;
+    width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 600px) {
+
+        
+  .consec2{
+    height: 60vh;
+  
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+  
+
+  .consec2{
+    height: 50vh;
+  
+  }
+}  */
+
+
+
+/* @media only screen and (max-width: 600px) {
+
+        
+  .sec2_inner{
+  
+ 
+    overflow: visible;
+    height: 40vh;
+    width: 250px;
+    
+    
+    
+    
+
+   
+   }
+} 
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+  
+
+  .sec2_inner{
+  
+    overflow: visible;
+    height: 40vh;
+    width: 500px;
+    
+    
+    
+   
+   }
+}  */

@@ -26,25 +26,97 @@
 //   });
 // });
 // -------------------------------------------------------------------------------------------------------
- 
+//  newsection code
+// const boxes = document.querySelectorAll('.newbox');
+
+// boxes.forEach(box => {
+//   box.addEventListener('mouseover', () => {
+//     box.style.width = '50%'; // Increase width on hover
+//     boxes.forEach(otherBox => {
+//       if (otherBox !== box) {
+//         otherBox.style.width = '15%'; // Reduce width of other boxes on hover
+//       }
+//     });
+//   });
+
+//   box.addEventListener('mouseout', () => {
+//     boxes.forEach(otherBox => {
+//       otherBox.style.width = ''; // Reset width of all boxes on mouseout
+//     });
+//   });
+// });
+
+
+// -------------------------------------------------------------------------------------------------------
+
+// const boxes = document.querySelectorAll('.newbox');
+
+// function handleHover() {
+//   if (window.innerWidth >= 768) { // Apply the effect for medium and large screens
+//     boxes.forEach(box => {
+//       box.addEventListener('mouseover', () => {
+//         box.style.width = '50%'; // Increase width on hover
+//         boxes.forEach(otherBox => {
+//           if (otherBox !== box) {
+//             otherBox.style.width = '15%'; // Reduce width of other boxes on hover
+//           }
+//         });
+//       });
+
+//       box.addEventListener('mouseout', () => {
+//         boxes.forEach(otherBox => {
+//           otherBox.style.width = ''; // Reset width of all boxes on mouseout
+//         });
+//       });
+//     });
+//   }
+// }
+
+// // Call the function initially
+// handleHover();
+
+// // Re-evaluate on window resize
+// window.addEventListener('resize', handleHover);
+
+
+// ------------------------------------------------------------------------------------------------------
+
+
 const boxes = document.querySelectorAll('.newbox');
 
-boxes.forEach(box => {
-  box.addEventListener('mouseover', () => {
-    box.style.width = '50%'; // Increase width on hover
-    boxes.forEach(otherBox => {
-      if (otherBox !== box) {
-        otherBox.style.width = '15%'; // Reduce width of other boxes on hover
-      }
-    });
-  });
+function handleHover() {
+  if (window.innerWidth >= 768) { // Apply the effect for medium and large screens
+    boxes.forEach(box => {
+      box.addEventListener('mouseover', () => {
+        box.style.width = '50%'; // Increase width on hover
+        boxes.forEach(otherBox => {
+          if (otherBox !== box) {
+            otherBox.style.width = '15%'; // Reduce width of other boxes on hover
+          }
+        });
+      });
 
-  box.addEventListener('mouseout', () => {
-    boxes.forEach(otherBox => {
-      otherBox.style.width = ''; // Reset width of all boxes on mouseout
+      box.addEventListener('mouseout', () => {
+        boxes.forEach(otherBox => {
+          otherBox.style.width = ''; // Reset width of all boxes on mouseout
+        });
+      });
     });
-  });
-});
+  } else { // Reset styles for small screens
+    boxes.forEach(box => {
+      box.style.width = ''; // Reset width for all boxes
+    });
+  }
+}
+
+// Call the function initially
+handleHover();
+
+// Re-evaluate on window resize
+window.addEventListener('resize', handleHover);
+
+
+
 
 
 // ------------------------------------------------------------------------------------------------------
@@ -86,7 +158,7 @@ const nsec2text1 = document.querySelector('.nsec2textr1');
 // Add event listener for mouseover on part1
 part1.addEventListener('mouseover', function() {
     // Show the nsec2text1 paragraph
-    nsec2text1.style.display = 'block';
+    nsec2text1.style.display = 'inline-flex';
 });
 
 // Add event listener for mouseout on part1
@@ -99,18 +171,18 @@ part1.addEventListener('mouseout', function() {
 
 
 const part2 = document.querySelector('.part2');
-// Select the nsec2text1 paragraph
+// Select the nsec2text2 paragraph
 const nsec2text2 = document.querySelector('.nsec2textr2');
 
 // Add event listener for mouseover on part1
 part2.addEventListener('mouseover', function() {
-    // Show the nsec2text1 paragraph
-    nsec2text2.style.display = 'block';
+    // Show the nsec2text2 paragraph
+    nsec2text2.style.display = 'inline-flex';
 });
 
-// Add event listener for mouseout on part1
+// Add event listener for mouseout on part2
 part2.addEventListener('mouseout', function() {
-    // Hide the nsec2text1 paragraph
+    // Hide the nsec2text2 paragraph
     nsec2text2.style.display = 'none';
 });
 
@@ -123,7 +195,7 @@ const nsec2text3 = document.querySelector('.nsec2textr3');
 // Add event listener for mouseover on part1
 part3.addEventListener('mouseover', function() {
     // Show the nsec2text1 paragraph
-    nsec2text3.style.display = 'block';
+    nsec2text3.style.display = 'inline-flex';
 });
 
 // Add event listener for mouseout on part1
@@ -142,7 +214,7 @@ const nsec2text4 = document.querySelector('.nsec2textr4');
 // Add event listener for mouseover on part1
 part4.addEventListener('mouseover', function() {
     // Show the nsec2text1 paragraph
-    nsec2text4.style.display = 'block';
+    nsec2text4.style.display = 'inline-flex';
 });
 
 // Add event listener for mouseout on part1
@@ -150,3 +222,10 @@ part4.addEventListener('mouseout', function() {
     // Hide the nsec2text1 paragraph
     nsec2text4.style.display = 'none';
 });
+
+
+
+
+
+// contact page
+

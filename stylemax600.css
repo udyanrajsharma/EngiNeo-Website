@@ -63,9 +63,7 @@
     
     }
 
-    .sec_4_heding.sec_4_heding{
-        font-size: 50px;
-    }
+    
 
     .sec5_box.sec5_box{
     
@@ -162,7 +160,76 @@
 
     .newsection{
 
-        height: 210vh;
+        height: 235vh;
     }
 
+   
+
+    /* trusted by top brand Animation */
+    .img-slider-div {
+        overflow: hidden;
     }
+    
+    .img-slider-div .images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1%;
+        width: 200%;
+        max-width: 200%;
+        
+    }
+    
+    .img-slider-div .images:nth-child(1) {
+        animation: scrollFirst 30s linear infinite;
+    
+    }
+    
+    .img-slider-div .images:nth-child(2) {
+        animation: scrollSecond 30s linear infinite;
+    }
+    
+    .img-slider-div div img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+    
+    @keyframes scrollFirst {
+        0% {
+            transform: translateX(20%);
+        }
+    
+        50% {
+            transform: translateX(-80%);
+        }
+    
+        100% {
+            transform: translateX(20%);
+        }
+    }
+    
+    @keyframes scrollSecond {
+        0% {
+            transform: translateX(-80%);
+        }
+    
+        50% {
+            transform: translateX(20%);
+        }
+    
+        100% {
+            transform: translateX(-80%);
+        }
+    }
+    
+    
+
+}
+
+/* newsection2 */
+
+.newsection2{
+
+ height: 140vh;    
+}
