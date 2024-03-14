@@ -198,8 +198,9 @@
 
 .about_buttn.about_buttn {
   /* max-width: 50px; */
-  height: 100px;
+  height: 70px;
   border-radius: 25px;
+  background-color: #68140C
 
 
 }

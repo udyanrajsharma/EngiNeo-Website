@@ -9,7 +9,7 @@
 
 @media only screen and (max-width: 600px) {
     .heding.heding{ 
-        font-size: 40px; 
+        font-size: 36px; 
     }
 
     .subheding.subheding{ 
@@ -22,7 +22,7 @@
     }
 
     .sec1_img.sec1_img{
-        height:650px;
+        height:600px;
     }  
 
     .sec2.sec2 {
@@ -55,7 +55,7 @@
     }
 
     .img_sec_3.img_sec_3 {
-        height: 2400px;
+        height: 2200px;
     }
 
     .sec_4.sec_4 {
@@ -160,7 +160,7 @@
 
     .newsection{
 
-        height: 235vh;
+        height: 220vh;
     }
 
    
@@ -221,6 +221,16 @@
         100% {
             transform: translateX(-80%);
         }
+    }
+
+    .sec1_btn {
+        background-color: #b71c1c;
+        width: 60%;
+        height: 60px;
+        border-radius: 35px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
     }
     
     

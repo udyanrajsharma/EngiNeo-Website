@@ -16,14 +16,14 @@
     /* font-family: cormorant; */
     color: #63110f;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 56px;
 }
 
 
 
 .subheding.subheding {
     font-size: 40px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     /* font-family: cormorant; */
 }
 
@@ -41,10 +41,10 @@
 
 
 
-.sec1_btn.sec1_btn.sec1_btn.sec1_btn {
+.sec1_btn {
     background-color: #b71c1c;
-    width: 90%;
-    height: 85px;
+    width: 80%;
+    height: 80px;
     border-radius: 40px;
     color: white;
     font-size: 28px;
@@ -294,6 +294,7 @@ div.sec5_box.sec5_box {
     background-color: #63110f;
     color: white;
     height: 60vh;
+    font-size: 15px;
 
 }
 
@@ -890,7 +891,7 @@ div.sec5_box.sec5_box {
 
 .fade-in {
     opacity: 0;
-    transform: translateY(150px); /* Initial position below */
+    transform: translateY(100px); /* Initial position below */
     transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Animation transition */
   }
   

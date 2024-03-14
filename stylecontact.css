@@ -41,11 +41,24 @@
   /* font-family: cormorant; */
   color: #63110f;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 .btn-danger.btn-danger{
   background-color: #63110F;
+}
+
+/* Fade in  Animation in all section  */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(100px); /* Initial position below */
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Animation transition */
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0); /* Move to original position */
 }
 
 
@@ -70,6 +83,8 @@
     height: 35vh;
     width: 250px
   }
+
+  
 
 
 
