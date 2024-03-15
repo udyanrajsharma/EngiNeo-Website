@@ -27,7 +27,7 @@
 
 
   overflow: visible;
-  height: 70vh;
+  height: 65vh;
 
 }
 
@@ -46,7 +46,14 @@
 
 .btn-danger.btn-danger{
   background-color: #63110F;
+  
 }
+
+/* .contact_buttn  {
+
+  width: 50px;
+
+} */
 
 /* Fade in  Animation in all section  */
 
@@ -80,9 +87,12 @@
 
 
     overflow: visible;
-    height: 35vh;
-    width: 250px
+    height: 45vh;
+    width: 250px;
+    
   }
+
+
 
   
 

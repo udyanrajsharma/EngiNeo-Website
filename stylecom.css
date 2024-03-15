@@ -735,19 +735,25 @@ div.sec5_box.sec5_box {
 
     color: #63110f;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 56px;
 }
 
 .ser_sec1_img.ser_sec1_img {
     width: 100%;
+    max-height: 100%;
 
 }
+
+.ser_sec1_card {
+    height: 500px;
+}
+
 
 
 .ser_sec2_heding.ser_sec2_heding {
     color: #63110f;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 56px;
 }
 
 
@@ -769,14 +775,14 @@ div.sec5_box.sec5_box {
 
 
 .ser_sec3_div.ser_sec3_div {
-    height: 400px;
+    height: 350px;
     background-color: #EADADA;
 }
 
 
 .ser_sec3_heding.ser_sec3_heding {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 
@@ -786,13 +792,15 @@ div.sec5_box.sec5_box {
     background-color: #6E1512;
     border-radius: 50px;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .card_icon.card_icon {
     color: #000000
 }
+
+ 
 
 
 
